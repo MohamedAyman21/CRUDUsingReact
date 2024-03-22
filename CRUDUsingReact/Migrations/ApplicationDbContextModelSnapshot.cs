@@ -39,7 +39,7 @@ namespace CRUDUsingReact.Migrations
 
                     b.HasKey("ID");
 
-                    b.ToTable("Employees");
+                    b.ToTable("Employees", (string)null);
                 });
 #pragma warning restore 612, 618
         }
