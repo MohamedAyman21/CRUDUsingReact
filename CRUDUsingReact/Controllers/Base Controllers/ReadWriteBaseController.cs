@@ -30,7 +30,6 @@ namespace CRUDUsingReact.Controllers.Base_Controllers
 			{
 				return BadRequest(e);
 			}
-			//return CreatedAtAction("Post", entity, entity);
 			return Accepted(entity);
 		}
 
