@@ -12,6 +12,5 @@ namespace CRUDUsingReact.Controllers
 	public class EmployeeController : ReadWriteBaseController<Employee,ApplicationDbContext>
 	{
 		public EmployeeController(ApplicationDbContext context):base(context) { }
-		
 	}
 }
